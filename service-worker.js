@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/VaniushaR/HERE-Hackathon.git/precache-manifest.7b539cfb72a2134daf065820cfcd557c.js"
+  "/HERE-Hackathon/precache-manifest.22efa1854ceb7c13caae9520b6006f73.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/VaniushaR/HERE-Hackathon.git/index.html", {
+workbox.routing.registerNavigationRoute("/HERE-Hackathon/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

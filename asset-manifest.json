@@ -1,14 +1,14 @@
 {
-  "main.css": "/VaniushaR/HERE-Hackathon.git/static/css/main.c6ce76c7.chunk.css",
-  "main.js": "/VaniushaR/HERE-Hackathon.git/static/js/main.8b7dcafd.chunk.js",
-  "main.js.map": "/VaniushaR/HERE-Hackathon.git/static/js/main.8b7dcafd.chunk.js.map",
-  "static/js/1.a700ff87.chunk.js": "/VaniushaR/HERE-Hackathon.git/static/js/1.a700ff87.chunk.js",
-  "static/js/1.a700ff87.chunk.js.map": "/VaniushaR/HERE-Hackathon.git/static/js/1.a700ff87.chunk.js.map",
-  "runtime~main.js": "/VaniushaR/HERE-Hackathon.git/static/js/runtime~main.c1f446ee.js",
-  "runtime~main.js.map": "/VaniushaR/HERE-Hackathon.git/static/js/runtime~main.c1f446ee.js.map",
-  "static/media/logo.svg": "/VaniushaR/HERE-Hackathon.git/static/media/logo.5d5d9eef.svg",
-  "static/css/main.c6ce76c7.chunk.css.map": "/VaniushaR/HERE-Hackathon.git/static/css/main.c6ce76c7.chunk.css.map",
-  "index.html": "/VaniushaR/HERE-Hackathon.git/index.html",
-  "precache-manifest.7b539cfb72a2134daf065820cfcd557c.js": "/VaniushaR/HERE-Hackathon.git/precache-manifest.7b539cfb72a2134daf065820cfcd557c.js",
-  "service-worker.js": "/VaniushaR/HERE-Hackathon.git/service-worker.js"
+  "main.css": "/HERE-Hackathon/static/css/main.c6ce76c7.chunk.css",
+  "main.js": "/HERE-Hackathon/static/js/main.f7621177.chunk.js",
+  "main.js.map": "/HERE-Hackathon/static/js/main.f7621177.chunk.js.map",
+  "static/js/1.a700ff87.chunk.js": "/HERE-Hackathon/static/js/1.a700ff87.chunk.js",
+  "static/js/1.a700ff87.chunk.js.map": "/HERE-Hackathon/static/js/1.a700ff87.chunk.js.map",
+  "runtime~main.js": "/HERE-Hackathon/static/js/runtime~main.2cce0839.js",
+  "runtime~main.js.map": "/HERE-Hackathon/static/js/runtime~main.2cce0839.js.map",
+  "static/media/logo.svg": "/HERE-Hackathon/static/media/logo.5d5d9eef.svg",
+  "static/css/main.c6ce76c7.chunk.css.map": "/HERE-Hackathon/static/css/main.c6ce76c7.chunk.css.map",
+  "index.html": "/HERE-Hackathon/index.html",
+  "precache-manifest.22efa1854ceb7c13caae9520b6006f73.js": "/HERE-Hackathon/precache-manifest.22efa1854ceb7c13caae9520b6006f73.js",
+  "service-worker.js": "/HERE-Hackathon/service-worker.js"
 }
