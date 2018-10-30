@@ -1,89 +1,182 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.container {
+  align-content: center;
   align-items: center;
+}
+
+.camara {
+  height: 100%;
+  /*IMPORTANTE*/
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 5%;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-qr {
+  margin: 0 auto;
+  font-size: 28px;
 }
 
 @media screen and (max-width: 1024px) {
+  Container {
+    font-size: 16pt;
+    font-family: 'Noto Serif', serif;
+  }
+
+  h1 {
+    font-size: 36pt;
+    font-family: 'Noto Serif', serif;
+  }
   .btn-login {
     margin-top: 2em;
+    font-size: 12pt;
+    font-family: 'Noto Serif', serif;
   }
+
+  .btn-message {
+    font-size: 12pt;
+    font-family: 'Noto Serif', serif;
+  }
+
   .btn-route {
-    font-size: 33px;
+    font-size: 28px;
     margin: 30px;
     width: 30%;
     height: 5vh;
+    font-family: 'Noto Serif', serif;
   }
+
+  .log-out {
+    margin-top: 25em;
+    font-family: 'Noto Serif', serif;
+    font-size: 16pt;
+  }
+
   .driver {
     margin-top: 28em;
   }
+
   footer {
     margin-top: 34em;
     display: block;
   }
+
   .login {
     padding: 4em;
+  }
+
+  .btn-r {
+    margin-top: 8em;
+    font-family: 'Noto Serif', serif;
+    font-size: 16pt;
+  }
+
+  .btn-m {
+    margin-top: 2em;
+    font-family: 'Noto Serif', serif;
+    font-size: 16pt;
+  }
+
+  .purple {
+    font-family: 'Noto Serif', serif;
+    font-size: 16pt;
   }
   .orange {
     margin-right: 2em;
   }
+
   .teal {
     margin-right: 2em;
   }
+
   .btn-large i {
     font-size: 2.6rem;
   }
 }
+
 @media screen and (max-width: 736px) {
+  /*   container {
+    font-size: 16pt;
+    font-family: 'Noto Serif', serif;
+  }  */
+
+  h1 {
+    font-size: 36pt;
+    font-family: 'Noto Serif', serif;
+  }
+
   .btn-login {
     margin-top: 2em;
+    margin-left: 2em;
+    font-size: 12pt;
+    font-family: 'Noto Serif', serif;
   }
+
+  .btn-message {
+    font-size: 12pt;
+    font-family: 'Noto Serif', serif;
+  }
+
   .btn-route {
     font-size: 28px;
     margin: 40px;
     width: 38%;
     height: 5vh;
   }
+
   .driver {
     margin-top: 8em;
   }
+
   footer {
     margin-top: 13em;
+    font-family: 'Noto Serif', serif;
   }
+
   .login {
-    padding: 4em;
+    padding: 5%;
+    margin-top: 20px;
   }
+
+  .btn-r {
+    margin-top: 8em;
+    font-family: 'Noto Serif', serif;
+    font-size: 16pt;
+  }
+
+  .btn-m {
+    margin-top: 2em;
+    font-family: 'Noto Serif', serif;
+    font-size: 16pt;
+  }
+
+  .purple {
+    font-family: 'Noto Serif', serif;
+    font-size: 16pt;
+  }
+
+  .log-out {
+    margin-top: 15em;
+    font-family: 'Noto Serif', serif;
+    font-size: 16pt;
+  }
+
   .orange {
     margin-right: 1em;
   }
+
   .teal {
     margin-right: 1em;
   }
+}
+
+.color {
+  background-color: #f58c0f;
+}
+
+.Log {
+  padding: 5%;
+  align-items: center;
 }

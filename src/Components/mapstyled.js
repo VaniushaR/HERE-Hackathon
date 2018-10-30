@@ -10,7 +10,8 @@ class MapStyled extends Component {
             position: 'absolute',
             width: '100%',
             height: '100%',
-            background: 'gray'
+            background: 'white',
+            padding: '5%'
           }}
         />
       </div>

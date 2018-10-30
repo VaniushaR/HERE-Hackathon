@@ -5,7 +5,10 @@ class Footer1 extends Component {
   render() {
     return (
       <div>
-        <Footer copyrights="copy 2018 Copyright Text" />
+        <Footer
+          className="grey-text text-lighten-4 right"
+          copyrights="copy 2018 Copyright Text"
+        />
       </div>
     );
   }

@@ -7,8 +7,9 @@ class Validation extends Component {
     return (
       <div>
         <MapStyled />
-        <p>Pantalla tutor</p>
-        <LocationMap />
+        <div>
+          <LocationMap />
+        </div>
       </div>
     );
   }

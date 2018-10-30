@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-import { Row, Input, Button, Container } from 'react-materialize';
+import { Row, Input, Button, Container, Col } from 'react-materialize';
 import Validation from './Validation';
 import Muro from './Chofer';
+import Tut from './Tutor';
+
 let Val;
 let Chofer;
-
+let Tuto;
 class Login extends Component {
   constructor(props) {
     super(props);
@@ -23,6 +25,8 @@ class Login extends Component {
     console.log(typeof passwordInput);
     Val = <Validation />;
     Chofer = <Muro />;
+    Tuto = <Tut />;
+
     if (emailInput === 'tutor@schooltracker.com' && passwordInput === '12345') {
       this.setState({ tutor: (this.state.tutor = true) });
       console.log('tutor', this.state.tutor);
@@ -59,43 +63,55 @@ class Login extends Component {
   };
 
   render() {
-    {
+    if (this.state.teacher === true || this.state.driver === true) {
       return (
         <div>
-          <Container className="login">
-            <Row>
-              <h1> Login </h1>
-              <Input
-                type="email"
-                placeholder="Email"
-                id="email"
-                s={12}
-                m={12}
-                l={10}
-              />
-              <Input
-                type="password"
-                id="password"
-                placeholder="password"
-                s={12}
-                m={12}
-                l={10}
-              />
-              <Button
-                className="btn-login"
-                waves="light"
-                node="a"
-                onClick={this.LogIn}
-              >
-                Ingresar
-              </Button>
-            </Row>
-          </Container>
-          {Val}
-          <div />
+          <div>{Chofer}</div>
+          <div>{Val}</div>
+        </div>
+      );
+    } else if (this.state.tutor === true) {
+      return (
+        <div>
+          <div>{Tuto}</div>
+          <div>{Val}</div>
         </div>
       );
     }
+    return (
+      <div className="login">
+        <Row>
+          <Col s={12}>
+            <Input
+              type="email"
+              placeholder="Email"
+              id="email"
+              s={12}
+              m={12}
+              l={10}
+            />
+            <Input
+              type="password"
+              id="password"
+              placeholder="password"
+              s={12}
+              m={12}
+              l={10}
+            />
+            <Button
+              className="btn-login"
+              waves="light"
+              node="a"
+              onClick={this.LogIn}
+            >
+              Ingresar
+            </Button>
+          </Col>
+        </Row>
+        <div />
+      </div>
+    );
   }
 }
+
 export default Login;
