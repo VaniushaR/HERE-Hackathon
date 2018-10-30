@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .btn-login {
+    margin-top: 2em;
+  }
+  .btn-route {
+    font-size: 33px;
+    margin: 30px;
+    width: 30%;
+    height: 5vh;
+  }
+  .driver {
+    margin-top: 28em;
+  }
+  footer {
+    margin-top: 34em;
+    display: block;
+  }
+  .login {
+    padding: 4em;
+  }
+  .orange {
+    margin-right: 2em;
+  }
+  .teal {
+    margin-right: 2em;
+  }
+  .btn-large i {
+    font-size: 2.6rem;
+  }
+}
+@media screen and (max-width: 736px) {
+  .btn-login {
+    margin-top: 2em;
+  }
+  .btn-route {
+    font-size: 28px;
+    margin: 40px;
+    width: 38%;
+    height: 5vh;
+  }
+  .driver {
+    margin-top: 8em;
+  }
+  footer {
+    margin-top: 13em;
+  }
+  .login {
+    padding: 4em;
+  }
+  .orange {
+    margin-right: 1em;
+  }
+  .teal {
+    margin-right: 1em;
+  }
+}
