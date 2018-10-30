@@ -23,11 +23,7 @@ class LocationMap extends Component {
 
   render() {
     this.refreshLocation();
-    return (
-      <div>
-        <MapStyled />
-      </div>
-    );
+    return <div />;
   }
 }
 

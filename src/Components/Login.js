@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Row, Input, Button, Container } from 'react-materialize';
 import Validation from './Validation';
+import Muro from './Chofer';
+let Val;
+let Chofer;
 
 class Login extends Component {
   constructor(props) {
@@ -18,7 +21,8 @@ class Login extends Component {
     const passwordInput = document.getElementById('password').value;
     console.log(emailInput);
     console.log(typeof passwordInput);
-    const Val = <Validation />;
+    Val = <Validation />;
+    Chofer = <Muro />;
     if (emailInput === 'tutor@schooltracker.com' && passwordInput === '12345') {
       this.setState({ tutor: (this.state.tutor = true) });
       console.log('tutor', this.state.tutor);
@@ -48,7 +52,7 @@ class Login extends Component {
     } else if (this.state.teacher === true) {
       return { Val };
     } else if (this.state.driver === true) {
-      return { Val };
+      return { Chofer };
     } else {
       return <p> X </p>;
     }
@@ -87,7 +91,7 @@ class Login extends Component {
               </Button>
             </Row>
           </Container>
-
+          {Val}
           <div />
         </div>
       );

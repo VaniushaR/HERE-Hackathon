@@ -8,8 +8,8 @@ class MapStyled extends Component {
           id="map"
           style={{
             position: 'absolute',
-            width: '70%',
-            height: '70%',
+            width: '100%',
+            height: '100%',
             background: 'gray'
           }}
         />
